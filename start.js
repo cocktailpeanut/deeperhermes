@@ -8,7 +8,7 @@ module.exports = {
         message: [
           '{{which("lms")}} unload --all',
           '{{which("lms")}} get nousresearch_deephermes-3-llama-3-8b-preview -y',
-          '{{which("lms")}} load nousresearch_deephermes-3-llama-3-8b-preview -y'
+          '{{which("lms")}} load deephermes-3-llama-3-8b-preview -y'
         ]
       }
     },
