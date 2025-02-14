@@ -4,7 +4,7 @@ import gradio as gr
 client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
 def detect(q):
     completion = client.chat.completions.create(
-      model="nousresearch_deephermes-3-llama-3-8b-preview",
+      model="deephermes-3-llama-3-8b-preview",
       messages=[
         {
           "role": "system",
@@ -21,7 +21,7 @@ def detect(q):
 
 def query(q, system_prompt):
     response = client.chat.completions.create(
-      model="nousresearch_deephermes-3-llama-3-8b-preview",
+      model="deephermes-3-llama-3-8b-preview",
       messages=[
         {
           "role": "system",
