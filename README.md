@@ -23,7 +23,7 @@ In above example:
 ## A. 1-click Launch
 
 1. First install [LM Studio](https://lmstudio.ai/)
-2. Install Deeper Hermes on pinokio.computer with 1 click.
+2. Install and Run Deeper Hermes on https://pinokio.computer with 1 click.
 
 ## B. Manual Install
 
