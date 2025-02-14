@@ -7,6 +7,7 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         message: [
           '{{which("lms")}} unload --all',
+          '{{which("lms")}} get nousresearch_deephermes-3-llama-3-8b-preview -y',
           '{{which("lms")}} load nousresearch_deephermes-3-llama-3-8b-preview -y'
         ]
       }
