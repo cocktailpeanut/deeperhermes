@@ -1,0 +1,3 @@
+#llama-cpp-python
+gradio
+openai
