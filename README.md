@@ -29,22 +29,23 @@ In above example:
 
 First install [LM Studio](https://lmstudio.ai/)
 
+Then load nousresearch_deephermes-3-llama-3-8b-preview into LMStudio:
+
+```
+lms load nousresearch_deephermes-3-llama-3-8b-preview -y
+```
+
+Once the LMStudio server is running and has loaded the model, activate virtual environment
+
+```
+source env/bin/activate (mac/linux)
+.\env\Scripts\activate (windows)
+```
+
 Next, install dependencies:
 
 ```
 pip install -r requirements.txt
-```
-
-Activate environment
-
-```
-source env/bin/activate (mac/linux)
-```
-
-or
-
-```
-.\env\Scripts\activate (windows)
 ```
 
 Then run with:
