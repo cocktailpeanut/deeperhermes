@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-  version: "3.2",
+  version: "3.6",
   title: "Deeper Hermes",
   description: "deephermes that doesn't need system prompt, autonomously responds based on its own judgment",
   icon: "icon.jpeg",
