@@ -1,5 +1,21 @@
 {
   "posts": [
     "https://x.com/cocktailpeanut/status/1890486588867498370"
-  ]
+  ],
+  "links": [{
+    "title": "cocktailpeanut",
+    "links": [{
+      "type": "bitcoin",
+      "value": "bc1qx90z3ce9qz4p2pnt06gd0ytntl86qw4d6qv39k"
+    }, {
+      "title": "X",
+      "value": "https://x.com/cocktailpeanut"
+    }, {
+      "title": "Github",
+      "value": "https://github.com/cocktailpeanut"
+    }, {
+      "title": "Discord",
+      "value": "https://discord.gg/TQdNwadtE4"
+    }]
+  }]
 }
